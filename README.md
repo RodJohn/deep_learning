@@ -6,18 +6,18 @@
 本人建议，作为深度学习的开发者，要掌握用低阶API写出一些常见的简单深度学习模型，对其内部细节熟悉后，再去使用高级API去开发更复杂先进的模型。
 
 这里附上本人使用estimator的两个项目链接：
-https://github.com/R-Stalker/deep_learning_estimator
-https://github.com/R-Stalker/deep_learning_estimator_labels
+    
+    https://github.com/R-Stalker/deep_learning_estimator    
+    https://github.com/R-Stalker/deep_learning_estimator_labels
 分别是单目标和多目标任务，使用高阶API后代码更精简，结构更清晰，包括din、dien、autoint、esmm、mmoe等复杂模型。
 
 
 # 二、代码目录
 ##1.主函数
-local_run.py
 
-local_run_test.py——用于本地测试
-
-local_run_textline.py——针对textline的数据加载方式（只是为了记录下该方法，可忽略）
+    local_run.py
+    local_run_test.py——用于本地测试
+    local_run_textline.py——针对textline的数据加载方式（只是为了记录下该方法，可忽略）
 
 
 ##2.utils——工具函数文件夹
