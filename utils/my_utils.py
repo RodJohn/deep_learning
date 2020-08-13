@@ -14,15 +14,6 @@ def arg_parse(argv):
     return parse_dict
 
 
-def venus_set_environ():
-    # venus 参数设置
-    os.environ['AWS_ACCESS_KEY_ID'] = "J2SU8BKYDQAKTKBHY1DV"
-    os.environ['AWS_SECRET_ACCESS_KEY'] = "4icFh3queHjR2jPk8U2j7qM1ekw7HpGQqkVPDgZ4"
-    os.environ['S3_ENDPOINT'] = "s3szoffline.sumeru.mig"
-    os.environ['S3_USE_HTTPS'] = '0'
-    os.environ['AWS_DEFAULT_REGION'] = 'default'
-
-
 def feat_size(path, alg_name):
     cont_size = 0
     vector_size = 0
